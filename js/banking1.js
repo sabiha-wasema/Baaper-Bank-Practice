@@ -60,14 +60,5 @@ document.getElementById("withdraw-btn").addEventListener("click", function() {
     alert("Cannot withdraw,Please deposit first");
   }
 
-  /* if (withdrawAmount <= 0 || typeof withdrawAmount != "string") {
-    console.log("Can't withdraw");
-  } else {
-    const totalWithdraw = previousWithdraw - withdrawTotal;
-    withdrawPreviousTotal.innerText = totalWithdraw;
-    const newBalanceTotal = previousBalanceTotal - withdrawTotal;
-    // console.log(newBalanceTotal);
-    balanceTotal.innerText = newBalanceTotal;
-  } */
   withdrawInputText.value = "";
 });
